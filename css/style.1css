@@ -1,0 +1,42 @@
+body{
+    direction: rtl;
+}
+header{
+    background-color: #d4c4b6 ;
+    background-size: 100%;
+    width: 100%;
+    height: 100px;
+    background-image: url("logo.png");
+    background-size: 200px 100px;
+    background-repeat: no-repeat;
+    float:right;
+    background-position: right;
+}
+#arabic{
+  position: absolute;
+  left: 27px;
+  top: 40px;
+  background-color: #d4c4b6;
+ 
+
+}
+#English{
+    background-color: #d4c4b6;
+    position: absolute;
+    left: 91px;
+    top: 40px;
+}
+h1{
+    text-align: center;
+}
+#prg1{
+    min-width: 400px;
+    max-width: 400px;
+    height: 300px;   
+}
+#prg1 p{
+    text-align: justify;
+    width: 400px;
+    height: 300px;  
+    position: fixed;
+}

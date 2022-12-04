@@ -1,0 +1,129 @@
+.body{
+    font-family: 'Amiri', serif;
+    direction: rtl !important;
+}
+.container{
+    display: grid;
+    grid-template-columns: 4% 92% 4%;
+    grid-gap: 10px 12px;
+    grid-auto-rows: minmax(100px,auto);
+    justify-items: center;
+    align-items: center;
+}
+
+.about11{
+  
+  max-width: 386px;
+  text-align: center;
+  
+}
+header{
+    /*  */
+    width: 100%;
+    height: 45px;
+}
+.conthead{
+    display: grid;
+    grid-template-columns: 12%  58% 27%;
+    grid-gap: 10px 12px;
+    grid-auto-rows: minmax(45px,auto);
+    background-color: #d4c4b6;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    
+    
+}
+.lang{
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-self: left;
+    display: inline-block;
+    align-self: center;
+    margin-bottom: 10px;
+
+    
+}
+#ar{
+    /* position: fixed; */
+    background-color: #d4c4b6;
+    color: black;
+    border-color: #603813;
+    
+}
+#en{
+    background-color: #d4c4b6;
+    color: black;
+    border-color: #603813;
+}
+.logo{
+    justify-self: right;
+    padding-right: 5px;
+    margin-top: 5px;
+    height: 90px;
+    width: 195px;
+}
+.progress1{
+    display: grid;
+    grid-template-columns: 32% 35% 33%;
+    margin-top: 20px;
+    grid-auto-rows: minmax(20px,auto);
+    font-weight: bold;
+
+}
+table, tbody, td,th {
+    border: 2px solid #d4c4b6 !important;
+}
+  
+.container12{
+    display: grid;
+    grid-template-columns:25% 50% 25% ;
+    justify-items: center;
+}
+.price{
+    align-self: center;
+    justify-self: right;
+    text-align: center;
+}
+.container13{
+    display: grid;
+    grid-template-columns:25% 50% 25% ;
+    justify-items: center;
+    align-items: center;
+}
+.about12{
+    align-self: center;
+   
+    text-align: center;   
+}
+.container14{
+    display: grid;
+    grid-template-columns:25% 50% 25% ;
+    justify-items: center;
+    align-items: center;
+}
+
+#button-next{
+    background: #d4c4b6 !important;
+}
+.container15{
+    display: grid;
+    grid-template-columns:25% 50% 25% ;
+    justify-items: center;
+    align-items: center;
+}
+.condition{
+    align-self: center;
+   
+    text-align: center;   
+}
+#progress12{
+    background-color: #d4c4b6 !important;
+}
+h1{
+    margin-top: 24px !important;
+}
+footer{
+    width: 100%;
+    height: 35px;
+}

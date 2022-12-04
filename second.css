@@ -1,0 +1,29 @@
+.body{
+    font-family: 'Amiri', serif;
+    direction: rtl !important;
+}
+.cond12{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    justify-items: right;
+    justify-self: right;
+}
+.form1{
+    text-align: right;
+    width: 350px;
+}
+.cond13{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    justify-items: right;
+    justify-self: right;
+}
+.form2{
+    text-align: right;
+}
+.form3{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;;
+    text-align: right;
+}
+
